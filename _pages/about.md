@@ -16,34 +16,35 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+I am currently a Senior Researcher at Tencent Singapore under the 'Programme Up' (青云计划) Talent Programme, specializing in Speech Synthesis (Speech GenAI). Previously, I obtained my Ph.D. from the National University of Singapore (NUS), where I was supervised by Prof. [Li Haizhou](https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en) and Prof.[Mike Z. SHOU](https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en). Before joining Tencent, I worked as a Senior Research Engineer at the Agency for Science, Technology and Research (A*STAR), Singapore, focusing on Speech-LLM (MERaLiON Team), Speech Anti-Spoofing (Speech DeepFake Detection), and Speaker Recognition."
 
-I am a PhD candidate at the National University of Singapore (NUS), supervised by Prof. [Li Haizhou](https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en) and Prof.[Mike Z. SHOU](https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en). I am also a Senior Research Engineer at the Agency for Science, Technology and Research (A*STAR), Singapore.
-
-My research interests include speaker recognition, anti-spoofing, speech-LLM, etc. I have published more than 10 papers in the top international AI conferences and journals such as NeurIPS, TASLP, SPL, ICASSP, INTERSPEECH. <a href="https://scholar.google.com/citations?hl=en&user=1W24GsQAAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fliu-tianchi%2Fliu-tianchi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+My research interests include text-to-speech, speaker recognition, anti-spoofing, speech-LLM, etc. I have published more than 10 papers in the top international AI conferences and journals such as NeurIPS, TASLP, SPL, ICASSP, INTERSPEECH. <a href="https://scholar.google.com/citations?hl=en&user=1W24GsQAAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fliu-tianchi%2Fliu-tianchi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🔍 Research Area
 
-**Speech Processing**: Speaker Recognition, Speech Foundation Model, Anti-spoofing, Target Speaker Extraction
+**Speech Processing**: Text-to-Speech (TTS), Speaker Recognition, Speech Foundation Model, Anti-spoofing / DeepFake Detection, Target Speaker Extraction
 
-**Multi-modal Processing**: Speech-LLM, Audio-visual Deception Detection
+**Multi-modal Processing**: Speech-LLM, Audio-visual 
 
 **Algorithm**: Self-supervised Learning, Disentanglement Learning
 
 # 🎓 Education
 
-- *2021.01 - 2025.02*, Ph.D. in Speech Processing, National University of Singapore (NUS), Singapore.
+- *2021.01 - 2025.01*, Ph.D. in Speech Processing, National University of Singapore (NUS), Singapore.
 - *2018.07 - 2019.06*, M.Sc. in Electronic and Computer Engineering (Specialization in Computer Engineering), National University of Singapore (NUS), Singapore.
 
 # 💼 Work Experience
 
-- *2020.09 - Now*    , Senior Research Engineer, Agency for Science, Technology and Research (A*STAR), Singapore.
+- *2025.02 - Now*, Senior Researcher, 'Programme Up' (青云计划) Talent Programme, Tencent, Singapore.
+- *2020.09 - 2025.02*, Senior Research Engineer, Agency for Science, Technology and Research (A*STAR), Singapore.
 - *2019.06 - 2020.08*, AI Scientist, PENSEES R&D Center, Singapore
 
 # 📜 Publication
 
 **2025**
+- ⭐ Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Github\]](https://github.com/lmxue/Audio-FLAN)
 - Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**IEEE SPL**), 2025. 🔗[\[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code\]](https://github.com/mmmmayi/ExPO)
-- Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[\[Link](https://link.springer.com/article/10.1007/s12204-025-2798-4)\]
+- Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[\[Link\]](https://link.springer.com/article/10.1007/s12204-025-2798-4)
 
 **2024**
 - ⭐ [<span style="background: linear-gradient(to right, #c9e5ee, #FFEFD5); color:black; font-weight:bold; padding:2px 5px;">🌊MERaLiON🦁</span>] Muhammad Huzaifah\*, Geyu Lin\*, **Tianchi Liu**\*, Hardik B. Sailor\*, Kye Min Tan\*, Tarun K. Vangani\*, Qiongqiong Wang\*, Jeremy H. M. Wong\*, Nancy F. Chen, Ai Ti Aw (MERaLiON Team), *MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond*, 2024. 🔗[\[arXiv](https://arxiv.org/abs/2412.11538), [🤗Hugging Face\]](https://huggingface.co/MERaLiON)
