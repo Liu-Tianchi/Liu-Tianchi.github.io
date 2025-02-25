@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I am currently a Senior Researcher at Tencent Singapore under the 'Programme Up' (青云计划) Talent Programme, specializing in Speech Synthesis (Speech GenAI). Previously, I obtained my Ph.D. from the National University of Singapore (NUS), where I was supervised by Prof. [Li Haizhou](https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en) and Prof.[Mike Z. SHOU](https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en). Before joining Tencent, I worked as a Senior Research Engineer at the Agency for Science, Technology and Research (A*STAR), Singapore, focusing on Speech-LLM (MERaLiON Team), Speech Anti-Spoofing (Speech DeepFake Detection), and Speaker Recognition.
+I am currently a Senior Researcher at Tencent Singapore under the 'Project Up' (青云计划) Talent Programme, specializing in Speech Synthesis (Speech GenAI). Previously, I obtained my Ph.D. from the National University of Singapore (NUS), where I was supervised by Prof. [Li Haizhou](https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en) and Prof.[Mike Z. SHOU](https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en). Before joining Tencent, I worked as a Senior Research Engineer at the Agency for Science, Technology and Research (A*STAR), Singapore, focusing on Speech-LLM (MERaLiON Team), Speech Anti-Spoofing (Speech DeepFake Detection), and Speaker Recognition.
 
 My research interests include text-to-speech, speaker recognition, anti-spoofing, speech-LLM, etc. I have published more than 10 papers in the top international AI conferences and journals such as NeurIPS, TASLP, SPL, ICASSP, INTERSPEECH. <a href="https://scholar.google.com/citations?hl=en&user=1W24GsQAAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fliu-tianchi%2Fliu-tianchi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -35,7 +35,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 # 💼 Work Experience
 
-- *2025.02 - Now*, Senior Researcher, 'Programme Up' (青云计划) Talent Programme, Tencent, Singapore.
+- *2025.02 - Now*, Senior Researcher, 'Project Up' (青云计划) Talent Programme, Tencent, Singapore.
 - *2020.09 - 2025.02*, Senior Research Engineer, Agency for Science, Technology and Research (A*STAR), Singapore.
 - *2019.06 - 2020.08*, AI Scientist, PENSEES R&D Center, Singapore
 
