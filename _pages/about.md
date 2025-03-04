@@ -42,7 +42,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 # 📜 Publication
 
 **2025**
-- ⭐ Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Github\]](https://github.com/lmxue/Audio-FLAN)
+- ⭐ Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github\]](https://github.com/lmxue/Audio-FLAN)
 - Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**IEEE SPL**), 2025. 🔗[\[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code\]](https://github.com/mmmmayi/ExPO)
 - Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[\[Link\]](https://link.springer.com/article/10.1007/s12204-025-2798-4)
 
