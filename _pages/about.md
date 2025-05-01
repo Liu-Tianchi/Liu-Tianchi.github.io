@@ -89,7 +89,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - **Outstanding Achievement Award** under the Research Domain, PENSEES Singapore, 2020
 
 🏛️ **Academic Service**
-
+- Committee - Local Arrangements Chair @ IEEE APSIPA ASC, 2025
 - Virtual Session Chair @ IEEE IALP, 2023
 - Program Committee @ IEEE ISCSLP, 2022
 - Volunteer @ IEEE ICASSP, 2022
