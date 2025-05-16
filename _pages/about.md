@@ -102,8 +102,10 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - IEEE Signal Processing Letters (SPL) - *'23, '24*
 
 *Conference:*
+- Conference on Neural Information Processing Systems (NeurIPS) - *'25*
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) - *'23~'25*
 - INTERSPEECH - *'23~'25*
+- IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) - *'25*
 - International Joint Conference on Neural Networks (IJCNN) *'25*
 - IEEE Spoken Language Technology Workshop (SLT) - *'24*
 - IEEE ISCSLP - *'22*
