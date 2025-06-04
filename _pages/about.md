@@ -75,6 +75,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 - *WeSpeaker* [![](https://img.shields.io/github/stars/wenet-e2e/wespeaker?style=social&label=WeSpeaker)](https://github.com/wenet-e2e/wespeaker)
 - *AudioLLM* [![](https://img.shields.io/github/stars/AudioLLMs/AudioLLM?style=social&label=AudioLLM)](https://github.com/AudioLLMs/AudioLLM)
+- *Nes2Net* [![](https://img.shields.io/github/stars/Liu-Tianchi/Nes2Net?style=social&label=Nes2Net)](https://github.com/Liu-Tianchi/Nes2Net)
 - *MERaLiON* [\[🤗Hugging Face\]](https://huggingface.co/MERaLiON)
 
 # 🌟 Others
