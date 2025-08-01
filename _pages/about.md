@@ -105,12 +105,12 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 *Journal/Transactions/Letters:*
 - IEEE Transactions on Dependable and Secure Computing (TDSC) *'25*
-- Computer Speech & Language *'24*
+- Computer Speech & Language *'24~'25*
 - IEEE Signal Processing Letters (SPL) - *'23, '24*
 
 *Conference:*
-- Conference on Neural Information Processing Systems (NeurIPS) - *'25* (Invitation Accepted)
-- IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) - *'25* (Invitation Accepted)
+- Conference on Neural Information Processing Systems (NeurIPS) - *'25*
+- IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) - *'25*
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) - *'23~'25*
 - INTERSPEECH - *'23~'25*
 - International Joint Conference on Neural Networks (IJCNN) *'25*
