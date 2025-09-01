@@ -43,9 +43,9 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 **2025**
 - ⭐ **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, Under Review, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)\]](https://github.com/Liu-Tianchi/Nes2Net)
-- **Tianchi Liu**, Ruijie Tao, Qiongqiong Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2508.19210)
-- Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025.
 - Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github\]](https://github.com/lmxue/Audio-FLAN)
+- Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025.
+- **Tianchi Liu**, Ruijie Tao, Qiongqiong Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2508.19210)
 - Qiongqiong Wang, Hardik B Sailor, Jeremy HM Wong, **Tianchi Liu**, ..., *Incorporating Contextual Paralinguistic Understanding in Large Speech-Language Models*, 2025. 🔗[\[IEEE(soon)](), [arXiv\]](https://arxiv.org/abs/2508.07273)
 - Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, Ai Ti Aw, *Contextual Paralinguistic Data Creation for Multi-Modal Speech-LLM: Data Condensation and Spoken QA Generation*, **INTERSPEECH**, 2025. 🔗[\[ISCA(soon)](), [arXiv](https://arxiv.org/abs/2505.13338), [dataset(🤗Hugging Face)\]](https://huggingface.co/datasets/MERaLiON/CPQA-Evaluation-Set)
 - Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**IEEE SPL**), 2025. 🔗[\[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code\]](https://github.com/mmmmayi/ExPO)
@@ -108,16 +108,17 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 📝 **Reviewer**
 
 *Journal/Transactions/Letters:*
+- IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP) *'25*
 - IEEE Transactions on Dependable and Secure Computing (TDSC) *'25*
 - Computer Speech & Language *'24~'25*
 - IEEE Signal Processing Letters (SPL) - *'23, '24*
 
 *Conference:*
 - Conference on Neural Information Processing Systems (NeurIPS) - *'25*
-- IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) - *'25*
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) - *'23~'25*
 - INTERSPEECH - *'23~'25*
 - International Joint Conference on Neural Networks (IJCNN) *'25*
+- IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) - *'25*
 - IEEE Spoken Language Technology Workshop (SLT) - *'24*
-- IEEE ISCSLP - *'22*
 - ASVspoof5 - *'24*
+- IEEE ISCSLP - *'22*
