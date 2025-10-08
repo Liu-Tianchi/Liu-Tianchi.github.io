@@ -42,6 +42,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 # 📜 Publication
 
 **2025**
+
 - ⭐ **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, Under Review, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)\]](https://github.com/Liu-Tianchi/Nes2Net)
 - Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github\]](https://github.com/lmxue/Audio-FLAN)
 - Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025. [[arXiv]](https://arxiv.org/abs/2509.16589)
@@ -86,6 +87,8 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 🥇 **Awards**🥈🥉🏅🎖️
 
+<!--- **Best Paper Shortlist - APSIPA ASC 2025
+--> 
 - **Best Student Paper Award -🥇Gold Award** (1 recipient annually), Pattern Recognition and Machine Intelligence Association (**PREMIA**), 2024
 - **Best Student Paper Award - Long Paper Track** (1 recipient annually), Nanyang Speech Technology Forum (**NSTF**), 2024
 - The 🥉**3rd place winner** out of 49 teams in the Controlled Singing Voice Deepfake Detection (**CtrSVDD**) Challenge 2024 @ IEEE SLT, 2024
