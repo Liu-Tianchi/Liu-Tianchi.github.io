@@ -53,6 +53,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**IEEE SPL**), 2025. 🔗[\[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code\]](https://github.com/mmmmayi/ExPO)
 - Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[\[Paper Link\]](https://link.springer.com/article/10.1007/s12204-025-2798-4)
 - Jiaxiang Meng, ..., **Tianchi Liu**, ..., *Exploring audio-visual fusion methods in foundation model-based deception detection*, **APSIPA ASC**, 2025.
+
 <!--- 
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
