@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am currently a Senior Researcher at Tencent Singapore under the 'Project Up' (青云计划) Talent Programme, specializing in Speech Synthesis (Speech GenAI). Previously, I obtained my Ph.D. from the National University of Singapore (NUS), where I was supervised by Prof. [Li Haizhou](https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en) and Prof.[Mike Z. SHOU](https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en). Before joining Tencent, I worked as a Senior Research Engineer at the Agency for Science, Technology and Research (A*STAR), Singapore, focusing on Speech-LLM (MERaLiON Team), Speech Anti-Spoofing (Speech DeepFake Detection), and Speaker Recognition.
 
-My research interests include text-to-speech, speaker recognition, anti-spoofing, speech-LLM, etc. I have published more than 20 papers in the top international AI conferences and journals such as NeurIPS, IEEE TIFS, IEEE TASLP, EMNLP, SPL, ICASSP, INTERSPEECH. <a href="https://scholar.google.com/citations?hl=en&user=1W24GsQAAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fliu-tianchi%2Fliu-tianchi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+My research interests include text-to-speech, speaker recognition, anti-spoofing, speech-LLM, etc. I have published more than 20 papers in the top international AI conferences and journals such as NeurIPS, IEEE TIFS, IEEE TASLP, EMNLP, IEEE SPL, IEEE ICASSP, INTERSPEECH. <a href="https://scholar.google.com/citations?hl=en&user=1W24GsQAAAAJ"><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fliu-tianchi%2Fliu-tianchi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🔍 Research Area
 
@@ -53,6 +53,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[\[Paper Link\]](https://link.springer.com/article/10.1007/s12204-025-2798-4)
 - Jiaxiang Meng, ..., **Tianchi Liu**, ..., *Exploring audio-visual fusion methods in foundation model-based deception detection*, **APSIPA ASC**, 2025.
 - (Under Review) Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github\]](https://github.com/lmxue/Audio-FLAN)
+  
 <!--- 
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
