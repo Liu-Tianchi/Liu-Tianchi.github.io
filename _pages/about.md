@@ -94,12 +94,12 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 🥇 **Awards**🥈🥉🏅🎖️
 
 - **🥇Best Paper Award** (1 paper only), **APSIPA**, 2025 (Co-author)
-- **Best Student Paper Award -🥇Gold Award** (1 recipient annually), Pattern Recognition and Machine Intelligence Association (**PREMIA**), 2024
-- **Best Student Paper Award - Long Paper Track** (1 recipient annually), Nanyang Speech Technology Forum (**NSTF**), 2024
-- The 🥉**3rd place winner** out of 49 teams in the Controlled Singing Voice Deepfake Detection (**CtrSVDD**) Challenge 2024 @ IEEE SLT, 2024
-- **Best Paper Award** in 2023 International Doctoral Forum (**CUHK** & **Microsoft**), 2023
-- **Travel Grant Award (Top Tier)**, Chinese and Oriental Languages Information Processing Society (**COLIPS**), 2023
-- The 🎖️**5th place winner** out of 128 teams in **NIST** Face Recognition Vendor Test (**FRVT**) - Face Mask Effects, 2020
+- **🥇Best Student Paper Award** (1 recipient annually), Pattern Recognition and Machine Intelligence Association (**PREMIA**), 2024
+- **🥇Best Student Paper Award** (2 recipients annually), Nanyang Speech Technology Forum (**NSTF**), 2024
+- **🥉3rd place winner** out of 49 teams in the Controlled Singing Voice Deepfake Detection (**CtrSVDD**) Challenge 2024 @ IEEE SLT, 2024
+- **🥇Best Paper Award** in 2023 International Doctoral Forum (**CUHK** & **Microsoft**), 2023
+- **🥇Travel Grant Award (Top Tier)**, Chinese and Oriental Languages Information Processing Society (**COLIPS**), 2023
+- **🎖️5th place winner** out of 128 teams in **NIST** Face Recognition Vendor Test (**FRVT**) - Face Mask Effects, 2020
 - **Outstanding Achievement Award** under the Research Domain, PENSEES Singapore, 2020
 
 🏛️ **Academic Service**
