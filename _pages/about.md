@@ -43,7 +43,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 **2025**
 
-- ⭐ **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[\[IEEE (soon)](), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)\]](https://github.com/Liu-Tianchi/Nes2Net)
+- ⭐ **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[\[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)\]](https://github.com/Liu-Tianchi/Nes2Net)
 - ⭐ (**Best Paper Award**) Ruijie Tao, Zhan Shi, Yidi Jiang, **Tianchi Liu**, Haizhou Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2404.00863)
 - Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025. 🔗[\[arXiv](https://arxiv.org/abs/2509.16589), [ACL Anthology\]](https://aclanthology.org/2025.findings-emnlp.760/)
 - **Tianchi Liu**, Ruijie Tao, Qiongqiong Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2508.19210)
