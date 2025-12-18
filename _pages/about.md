@@ -118,8 +118,10 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 📝 **Reviewer**
 
 *Journal/Transactions/Letters:*
+- Neural Networks *'25*
 - IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP) *'25*
 - IEEE Transactions on Dependable and Secure Computing (TDSC) *'25*
+- IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM) *'25*
 - Computer Speech & Language *'24~'25*
 - IEEE Signal Processing Letters (SPL) - *'23~'25*
 
