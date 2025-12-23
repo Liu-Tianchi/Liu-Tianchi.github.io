@@ -94,8 +94,8 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 # 🌟 Others
 
 🥇 **Awards**🥈🥉🏅🎖️
-
 - **🥇Best Paper Award** (1 paper only), **APSIPA**, 2025 (Co-author)
+- **🥈Sliver Award, Tencent AI Application Award**, **Tencent**, 2025
 - **🥇Best Student Paper Award** (1 recipient annually), Pattern Recognition and Machine Intelligence Association (**PREMIA**), 2024
 - **🥇Best Student Paper Award** (2 recipients annually), Nanyang Speech Technology Forum (**NSTF**), 2024
 - **🥉3rd place winner** out of 49 teams in the Controlled Singing Voice Deepfake Detection (**CtrSVDD**) Challenge 2024 @ IEEE SLT, 2024
