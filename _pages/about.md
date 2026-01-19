@@ -41,9 +41,56 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 # 📜 Publication
 
+**⭐ Selected Publications**
+- **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)](https://github.com/Liu-Tianchi/Nes2Net)]
+- **Tianchi Liu**, Kong Aik Lee, Qiongqiong Wang, Haizhou Li, *Golden Gemini is All You Need: Finding the Sweet Spots for Speaker Verification*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (**IEEE TASLP**), 2024. 🔗[[IEEE](https://ieeexplore.ieee.org/abstract/document/10497864/), [arXiv](https://arxiv.org/abs/2312.03620), [pre-trained models & simple inference](https://github.com/Liu-Tianchi/Golden-Gemini-for-Speaker-Verification), [train & test code](https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2), [ONNX](https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md)]
+- **Tianchi Liu**, Kong Aik Lee, Qiongqiong Wang, Haizhou Li, *Disentangling Voice and Content with Self-Supervision for Speaker Recognition*, Advances in Neural Information Processing Systems (<span style="background: linear-gradient(to bottom, #D8BFD8, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">NeurIPS</span>), 2023. 🔗[[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d276b0a087efdd2404f3295b26c24c1-Abstract-Conference.html), [arXiv](https://arxiv.org/abs/2310.01128)]
+- **Tianchi Liu**, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *MFA: TDNN with multi-scale frequency-channel attention for text-independent speaker verification with short utterances*, IEEE International Conference on Acoustics, Speech and Signal Processing (**IEEE ICASSP**), **oral**, 2022. 🔗[[IEEE](https://ieeexplore.ieee.org/abstract/document/9747021/), [arXiv](https://arxiv.org/abs/2202.01624), [code](https://github.com/Liu-Tianchi/MFA-TDNN)]
+- [<span style="background: linear-gradient(to right, #c9e5ee, #FFEFD5); color:black; font-weight:bold; padding:2px 5px;">🌊MERaLiON🦁</span>] Muhammad Huzaifah\*, Geyu Lin\*, **Tianchi Liu**\*, Hardik B. Sailor\*, Kye Min Tan\*, Tarun K. Vangani\*, Qiongqiong Wang\*, Jeremy H. M. Wong\*, Nancy F. Chen, Ai Ti Aw (MERaLiON Team), *MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond*, 2024. 🔗[[arXiv](https://arxiv.org/abs/2412.11538), [🤗Hugging Face](https://huggingface.co/MERaLiON)]
+  
+**Speech-LLM Pretraining & Reasoning**
+- Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2509.16589), [ACL Anthology](https://aclanthology.org/2025.findings-emnlp.760/)]
+- Qiongqiong Wang, Hardik B Sailor, Jeremy HM Wong, **Tianchi Liu**, ..., *Incorporating Contextual Paralinguistic Understanding in Large Speech-Language Models*, **IEEE ASRU**, 2025. 🔗[[IEEE (soon)](), [arXiv](https://arxiv.org/abs/2508.07273)]
+- Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, Ai Ti Aw, *Contextual Paralinguistic Data Creation for Multi-Modal Speech-LLM: Data Condensation and Spoken QA Generation*, **INTERSPEECH**, 2025. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2025/wang25e_interspeech.html), [arXiv](https://arxiv.org/abs/2505.13338), [dataset(🤗Hugging Face)](https://huggingface.co/datasets/MERaLiON/CPQA-Evaluation-Set)]
+- [<span style="background: linear-gradient(to right, #c9e5ee, #FFEFD5); color:black; font-weight:bold; padding:2px 5px;">🌊MERaLiON🦁</span>] Muhammad Huzaifah\*, Geyu Lin\*, **Tianchi Liu**\*, Hardik B. Sailor\*, Kye Min Tan\*, Tarun K. Vangani\*, Qiongqiong Wang\*, Jeremy H. M. Wong\*, Nancy F. Chen, Ai Ti Aw (MERaLiON Team), *MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond*, 2024. 🔗[[arXiv](https://arxiv.org/abs/2412.11538), [🤗Hugging Face](https://huggingface.co/MERaLiON)]
+- (Under Review) Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github](https://github.com/lmxue/Audio-FLAN)]
+  
+**Speaker Recognition & Target Speaker Extraction**
+- Junjie Li, ..., **Tianchi Liu**, ..., *Mak Xi+: Uncertainty Supervision for Robust Speaker Embedding*, IEEE International Conference on Acoustics, Speech and Signal Processing (**IEEE ICASSP**), 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
+- (**Best Paper Award**) Ruijie Tao, Zhan Shi, Yidi Jiang, **Tianchi Liu**, Haizhou Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2404.00863), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249009)]
+- Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *PhiNet: Speaker Verification with Phonetic Interpretability*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (**IEEE TASLP**), 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11293376)]
+- **Tianchi Liu**, Ruijie Tao, Qiongqiong Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2508.19210), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249126)]
+- Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**IEEE SPL**), 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code](https://github.com/mmmmayi/ExPO)]
+- Ke Zhang, Marvin Borsdorf, **Tianchi Liu**, Shuai Wang, Yangjie Wei, Haizhou Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[[Paper Link](https://link.springer.com/article/10.1007/s12204-025-2798-4)]
+- **Tianchi Liu**, Kong Aik Lee, Qiongqiong Wang, Haizhou Li, *Disentangling Voice and Content with Self-Supervision for Speaker Recognition*, Advances in Neural Information Processing Systems (<span style="background: linear-gradient(to bottom, #D8BFD8, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">NeurIPS</span>), 2023. 🔗[[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d276b0a087efdd2404f3295b26c24c1-Abstract-Conference.html), [arXiv](https://arxiv.org/abs/2310.01128)]
+- Qiongqiong Wang, Kong Aik Lee, **Tianchi Liu**, *Incorporating Uncertainty from Speaker Embedding Estimation to Speaker Verification*, IEEE International Conference on Acoustics, Speech and Signal Processing (**IEEE ICASSP**), **oral**, 2023. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10097019/), [arXiv](https://arxiv.org/abs/2302.11763)]
+- **Tianchi Liu**, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *MFA: TDNN with multi-scale frequency-channel attention for text-independent speaker verification with short utterances*, IEEE International Conference on Acoustics, Speech and Signal Processing (**IEEE ICASSP**), **oral**, 2022. 🔗[[IEEE](https://ieeexplore.ieee.org/abstract/document/9747021/), [arXiv](https://arxiv.org/abs/2202.01624), [code](https://github.com/Liu-Tianchi/MFA-TDNN)]
+- **Tianchi Liu**, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Neural acoustic-phonetic approach for speaker verification with phonetic attention mask*, IEEE Signal Processing Letters (**IEEE SPL**), 2022. 🔗[[IEEE](https://ieeexplore.ieee.org/abstract/document/9681187/)]
+- Qiongqiong Wang, Kong Aik Lee, **Tianchi Liu**, *Scoring of Large-Margin Embeddings for Speaker Verification: Cosine or PLDA?*, **INTERSPEECH, oral**, 2022. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2022/wang22r_interspeech.html), [arXiv](https://arxiv.org/abs/2204.03965)]
+- **Tianchi Liu**, Rohan Kumar Das, Maulik Madhavi, Shengmei Shen, Haizhou Li, *Speaker-Utterance Dual Attention for Speaker and Utterance Verification*, **INTERSPEECH**, 2020. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2020/liu20u_interspeech.html), [arXiv](https://arxiv.org/abs/2008.08901)]
+- **Tianchi Liu**, Maulik C Madhavi, Rohan Kumar Das, Haizhou Li, *A Unified Framework for Speaker and Utterance Verification*, **INTERSPEECH**, 2019. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2019/liu19m_interspeech.html), [code](https://github.com/Liu-Tianchi/SUV)]
+  
+**Speech DeepFake Detection / Antispoofing**
+- Duc-Tuan Truong, **Tianchi Liu**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, IEEE International Conference on Acoustics, Speech and Signal Processing (**IEEE ICASSP**), 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
+- **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)](https://github.com/Liu-Tianchi/Nes2Net)]
+- **Tianchi Liu**, Lin Zhang, Rohan Kumar Das, Yi Ma, Ruijie Tao, Haizhou Li, *How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/liu24m_interspeech.html), [arXiv](https://arxiv.org/abs/2406.02483)]
+- Zihan Pan, **Tianchi Liu**, Hardik B. Sailor, Qiongqiong Wang, *Attentive Merging of Hidden Embeddings from Pre-trained Speech Model for Anti-spoofing Detection*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/pan24c_interspeech.html), [arXiv](https://arxiv.org/abs/2406.10283), [code](https://github.com/pandarialTJU/AttM_INTERSPEECH24)]
+- **Tianchi Liu**, Ivan Kukanov, Zihan Pan, Qiongqiong Wang, Hardik Sailor, Kong Aik Lee, *Towards Quantifying and Reducing Language Mismatch Effects in Cross-lingual Speech Anti-Spoofing*, IEEE Spoken Language Technology Workshop (**IEEE SLT**), 2024.🔗[[IEEE](https://ieeexplore.ieee.org/document/10832142), [arXiv](https://arxiv.org/abs/2409.08346)]
+- Anmol Guragain\*, **Tianchi Liu**\*, Zihan Pan, Hardik Sailor, Qiongqiong Wang, *Speech Foundation Model Ensembles for the Controlled Singing Voice Deepfake Detection (CtrSVDD) Challenge 2024*, IEEE Spoken Language Technology Workshop (**IEEE SLT**), (co-first author\*), 2024. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10832226), [arXiv](https://arxiv.org/abs/2409.02302), [code](https://github.com/Anmol2059/SVDD2024)]
+- Duc-Tuan Truong, **Tianchi Liu**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection*, under review. 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
+
+**Audio-Visual**
+- Jiaxiang Meng, ..., **Tianchi Liu**, ..., *Exploring audio-visual fusion methods in foundation model-based deception detection*, **APSIPA ASC**, 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11249189)]
+
+  
+
+
+
+
+<!--- 
 **2025**
 
-- ⭐ **<u>Tianchi Liu</u>**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)](https://github.com/Liu-Tianchi/Nes2Net)]
+- ⭐ **Tianchi Liu**, Duc-Tuan Truong, Rohan Kumar Das, Kong Aik Lee, Haizhou Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, **IEEE Transactions on Information Forensics and Security (T-IFS)**, 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models (Github)](https://github.com/Liu-Tianchi/Nes2Net)]
 - ⭐ (**Best Paper Award**) Ruijie Tao, Zhan Shi, Yidi Jiang, **Tianchi Liu**, Haizhou Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2404.00863), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249009)]
 - Yi Ma, Shuai Wang, **Tianchi Liu**, Haizhou Li, *PhiNet: Speaker Verification with Phonetic Interpretability*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (**IEEE TASLP**), 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11293376)]
 - Qiongqiong Wang, Hardik Sailor, **Tianchi Liu**, ..., *Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data*, **EMNLP Findings**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2509.16589), [ACL Anthology](https://aclanthology.org/2025.findings-emnlp.760/)]
@@ -55,11 +102,11 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - Jiaxiang Meng, ..., **Tianchi Liu**, ..., *Exploring audio-visual fusion methods in foundation model-based deception detection*, **APSIPA ASC**, 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11249189)]
 - (Under Review) Liumeng Xue, Ziya Zhou, ..., **Tianchi Liu**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github](https://github.com/lmxue/Audio-FLAN)]
   
-<!--- 
+
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
 - Duc-Tuan Truong, **Tianchi Liu**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection*, under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
 - Junjie Li, ..., **Tianchi Liu**, ..., *Mak Xi+: Uncertainty Supervision for Robust Speaker Embedding* under review, 2025. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
---> 
+
 
 **2024**
 - ⭐**Tianchi Liu**, Kong Aik Lee, Qiongqiong Wang, Haizhou Li, *Golden Gemini is All You Need: Finding the Sweet Spots for Speaker Verification*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (**IEEE TASLP**), 2024. 🔗[[IEEE](https://ieeexplore.ieee.org/abstract/document/10497864/), [arXiv](https://arxiv.org/abs/2312.03620), [pre-trained models & simple inference](https://github.com/Liu-Tianchi/Golden-Gemini-for-Speaker-Verification), [train & test code](https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2), [ONNX](https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md)]
@@ -82,6 +129,8 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 - **Tianchi Liu**, Rohan Kumar Das, Maulik Madhavi, Shengmei Shen, Haizhou Li, *Speaker-Utterance Dual Attention for Speaker and Utterance Verification*, **INTERSPEECH**, 2020. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2020/liu20u_interspeech.html), [arXiv](https://arxiv.org/abs/2008.08901)]
 - **Tianchi Liu**, Maulik C Madhavi, Rohan Kumar Das, Haizhou Li, *A Unified Framework for Speaker and Utterance Verification*, **INTERSPEECH**, 2019. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2019/liu19m_interspeech.html), [code](https://github.com/Liu-Tianchi/SUV)]
+--> 
+
 
 # 💻 Open Source Contributions
 
