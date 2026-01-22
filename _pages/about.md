@@ -55,11 +55,11 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - Q. Wang, H. B. Sailor, **<u>T. Liu</u>**, A. T. Aw, *Contextual Paralinguistic Data Creation for Multi-Modal Speech-LLM: Data Condensation and Spoken QA Generation*, **INTERSPEECH**, 2025. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2025/wang25e_interspeech.html), [arXiv](https://arxiv.org/abs/2505.13338), [dataset(🤗Hugging Face)](https://huggingface.co/datasets/MERaLiON/CPQA-Evaluation-Set)]
 - [<span style="background: linear-gradient(to right, #c9e5ee, #FFEFD5); color:black; font-weight:bold; padding:2px 5px;">🌊MERaLiON🦁</span>] M. Huzaifah\*, G. Lin\*, **<u>T. Liu</u>**\*, H. B. Sailor\*, K. M. Tan\*, T. K. Vangani\*, Q. Wang\*, J. H. M. Wong\*, N. F. Chen, A. T. Aw (MERaLiON Team), *MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond*, 2024. 🔗[[arXiv](https://arxiv.org/abs/2412.11538), [🤗Hugging Face](https://huggingface.co/MERaLiON)]
 - (Under Review) L. Xue, ..., **<u>T. Liu</u>**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github](https://github.com/lmxue/Audio-FLAN)]
-  
-**Speaker Recognition & Target Speaker Extraction**
+
 <!--- 
 - J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
 --> 
+**Speaker Recognition & Target Speaker Extraction**
 - (**Best Paper Award**) R. Tao, Z. Shi, Y. Jiang, **<u>T. Liu</u>**, H. Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2404.00863), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249009)]
 - Y. Ma, S. Wang, **<u>T. Liu</u>**, H. Li, *PhiNet: Speaker Verification with Phonetic Interpretability*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (<span style="background: linear-gradient(to bottom, #C6DBEF, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TASLP</span>), 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11293376)]
 - **<u>T. Liu</u>**, R. Tao, Q. Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2508.19210), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249126)]
