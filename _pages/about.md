@@ -76,7 +76,8 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - **<u>T. Liu</u>**, M. C. Madhavi, R. K. Das, H. Li, *A Unified Framework for Speaker and Utterance Verification*, **INTERSPEECH**, 2019. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2019/liu19m_interspeech.html), [code](https://github.com/Liu-Tianchi/SUV)]
   
 **Speech DeepFake Detection / Antispoofing**
-<!--- - D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
+<!--- 
+- D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
 --> 
 - **<u>T. Liu</u>**, D. T. Truong, R. K. Das, K. A. Lee, H. Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, IEEE Transactions on Information Forensics and Security (<span style="background: linear-gradient(to bottom, #C1E1C1, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TIFS</span>), 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models](https://github.com/Liu-Tianchi/Nes2Net)][![](https://img.shields.io/github/stars/Liu-Tianchi/Nes2Net?style=social&label=Nes2Net)](https://github.com/Liu-Tianchi/Nes2Net)
 - **<u>T. Liu</u>**, L. Zhang, R. K. Das, Y. Ma, R. Tao, H. Li, *How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/liu24m_interspeech.html), [arXiv](https://arxiv.org/abs/2406.02483)]
