@@ -61,7 +61,10 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 --> 
 
 **Speaker Recognition & Target Speaker Extraction**
+<!--- 
 - J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
+--> 
+
 - (**Best Paper Award**) R. Tao, Z. Shi, Y. Jiang, **<u>T. Liu</u>**, H. Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2404.00863), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249009)]
 - Y. Ma, S. Wang, **<u>T. Liu</u>**, H. Li, *PhiNet: Speaker Verification with Phonetic Interpretability*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (<span style="background: linear-gradient(to bottom, #C6DBEF, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TASLP</span>), 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11293376)]
 - **<u>T. Liu</u>**, R. Tao, Q. Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2508.19210), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249126)]
@@ -83,7 +86,9 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 --> 
 
 **Speech DeepFake Detection / Antispoofing**
+<!--- 
 - D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
+--> 
 - **<u>T. Liu</u>**, D. T. Truong, R. K. Das, K. A. Lee, H. Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, IEEE Transactions on Information Forensics and Security (<span style="background: linear-gradient(to bottom, #C1E1C1, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TIFS</span>), 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models](https://github.com/Liu-Tianchi/Nes2Net)][![](https://img.shields.io/github/stars/Liu-Tianchi/Nes2Net?style=social&label=Nes2Net)](https://github.com/Liu-Tianchi/Nes2Net)
 - **<u>T. Liu</u>**, L. Zhang, R. K. Das, Y. Ma, R. Tao, H. Li, *How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/liu24m_interspeech.html), [arXiv](https://arxiv.org/abs/2406.02483)]
 - Z. Pan, **<u>T. Liu</u>**, H. B. Sailor, Q. Wang, *Attentive Merging of Hidden Embeddings from Pre-trained Speech Model for Anti-spoofing Detection*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/pan24c_interspeech.html), [arXiv](https://arxiv.org/abs/2406.10283), [code](https://github.com/pandarialTJU/AttM_INTERSPEECH24)]
