@@ -61,6 +61,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 --> 
 
 **Speaker Recognition & Target Speaker Extraction**
+
 <!--- 
 - J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
 --> 
@@ -86,6 +87,7 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 --> 
 
 **Speech DeepFake Detection / Antispoofing**
+
 <!--- 
 - D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
 --> 
