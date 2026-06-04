@@ -56,18 +56,14 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - [<span style="background: linear-gradient(to right, #c9e5ee, #FFEFD5); color:black; font-weight:bold; padding:2px 5px;">🌊MERaLiON🦁</span>] M. Huzaifah\*, G. Lin\*, **<u>T. Liu</u>**\*, H. B. Sailor\*, K. M. Tan\*, T. K. Vangani\*, Q. Wang\*, J. H. M. Wong\*, N. F. Chen, A. T. Aw (MERaLiON Team), *MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond*, 2024. 🔗[[arXiv](https://arxiv.org/abs/2412.11538), [🤗Hugging Face](https://huggingface.co/MERaLiON)]
 - (Under Review) L. Xue, ..., **<u>T. Liu</u>**, ..., *Audio-FLAN: A Preliminary Release*, 2025. 🔗[[arXiv](https://arxiv.org/abs/2502.16584), [Dataset(🤗Hugging Face)](https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset), [Github](https://github.com/lmxue/Audio-FLAN)]
 
-<!--- 
-- J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
---> 
+
 
 **Speaker Recognition & Target Speaker Extraction**
 
-<!--- 
-- J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
---> 
 
 - (**Best Paper Award**) R. Tao, Z. Shi, Y. Jiang, **<u>T. Liu</u>**, H. Li, *Voice Conversion Augmentation for Speaker Recognition on Defective Datasets*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2404.00863), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249009)]
 - Y. Ma, S. Wang, **<u>T. Liu</u>**, H. Li, *PhiNet: Speaker Verification with Phonetic Interpretability*, IEEE/ACM Transactions on Audio, Speech, and Language Processing (<span style="background: linear-gradient(to bottom, #C6DBEF, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TASLP</span>), 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11293376)]
+- J. Li, K. A. Lee, D. T. Truong, **<u>T. Liu</u>**, M. W. Mak, *Xi+: Uncertainty Supervision for Robust Speaker Embedding*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.05993)
 - **<u>T. Liu</u>**, R. Tao, Q. Wang, ..., *Interpolating Speaker Identities in Embedding Space for Data Expansion*, **APSIPA ASC**, 2025. 🔗[[arXiv](https://arxiv.org/abs/2508.19210), [IEEE Xplore](https://ieeexplore.ieee.org/document/11249126)]
 - Y. Ma, S. Wang, **<u>T. Liu</u>**, H. Li, *ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification*, IEEE Signal Processing Letters (**SPL**), 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10845144), [arXiv](https://arxiv.org/abs/2501.05729), [code](https://github.com/mmmmayi/ExPO)]
 - K. Zhang, M. Borsdorf, **<u>T. Liu</u>**, S. Wang, Y. Wei, H. Li, *Speaker Extraction with Verification of Present and Absent Target Speakers*, Journal of Shanghai Jiaotong University (Science), 2025. 🔗[[Paper Link](https://link.springer.com/article/10.1007/s12204-025-2798-4)]
@@ -82,16 +78,10 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - **<u>T. Liu</u>**, M. C. Madhavi, R. K. Das, H. Li, *A Unified Framework for Speaker and Utterance Verification*, **INTERSPEECH**, 2019. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2019/liu19m_interspeech.html), [code](https://github.com/Liu-Tianchi/SUV)]
   
 
-<!--- 
-- D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
---> 
-
 **Speech DeepFake Detection / Antispoofing**
 
-<!--- 
+- D. T. Truong, **<u>T. Liu</u>**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection*, **INTERSPEECH**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
 - D. T. Truong, **<u>T. Liu</u>**, ..., *Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection*, **IEEE ICASSP**, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2509.20682)
---> 
-
 - **<u>T. Liu</u>**, D. T. Truong, R. K. Das, K. A. Lee, H. Li, *Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing*, IEEE Transactions on Information Forensics and Security (<span style="background: linear-gradient(to bottom, #C1E1C1, rgba(255, 255, 255, 0)); color: black; font-weight: bold; padding: 4px 8px; display: inline-block;">TIFS</span>), 2025. 🔗[[IEEE](https://ieeexplore.ieee.org/document/11222612), [arXiv](https://arxiv.org/abs/2504.05657v1), [Code & Models](https://github.com/Liu-Tianchi/Nes2Net)][![](https://img.shields.io/github/stars/Liu-Tianchi/Nes2Net?style=social&label=Nes2Net)](https://github.com/Liu-Tianchi/Nes2Net)
 - **<u>T. Liu</u>**, L. Zhang, R. K. Das, Y. Ma, R. Tao, H. Li, *How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/liu24m_interspeech.html), [arXiv](https://arxiv.org/abs/2406.02483)]
 - Z. Pan, **<u>T. Liu</u>**, H. B. Sailor, Q. Wang, *Attentive Merging of Hidden Embeddings from Pre-trained Speech Model for Anti-spoofing Detection*, **INTERSPEECH, oral**, 2024. 🔗[[ISCA](https://www.isca-archive.org/interspeech_2024/pan24c_interspeech.html), [arXiv](https://arxiv.org/abs/2406.10283), [code](https://github.com/pandarialTJU/AttM_INTERSPEECH24)]
@@ -99,11 +89,13 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - A. Guragain\*, **<u>T. Liu</u>**\*, Z. Pan, H. B. Sailor, Q. Wang, *Speech Foundation Model Ensembles for the Controlled Singing Voice Deepfake Detection (CtrSVDD) Challenge 2024*, **IEEE SLT**, (co-first author\*), 2024. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10832226), [arXiv](https://arxiv.org/abs/2409.02302), [code](https://github.com/Anmol2059/SVDD2024)]
 - L. Zhang, ..., **<u>T. Liu</u>**, ..., *WeDefense: A Toolkit to Defend Against Fake Audio* 🔗[[arXiv]](https://arxiv.org/abs/2601.15240)
 - D. T. Truong, **<u>T. Liu</u>**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection* 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
-  
-<!--- 
 - L. Zhang, ..., **<u>T. Liu</u>**, ..., *WeDefense: A Toolkit to Defend Against Fake Audio* 🔗[[arXiv]](https://arxiv.org/abs/2601.15240)
-- D. T. Truong, **<u>T. Liu</u>**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection* 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
---> 
+
+**TTS**
+- T. Wang, ..., **<u>T. Liu</u>**, ..., *Evaluating the Expressive Appropriateness of Speech in Rich Contexts*, **ACL**, oral, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2605.09413)
+
+**ASR**
+- S. Dahal, A. Guragain\*, **<u>T. Liu</u>**, ..., *Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition*, **INTERSPEECH**, 2026.
 
 **Audio-Visual**
 - J. Meng, H. B. Sailor, Q. Wang, **<u>T. Liu</u>**, ..., *Exploring audio-visual fusion methods in foundation model-based deception detection*, **APSIPA ASC**, 2025. 🔗[[IEEE Xplore](https://ieeexplore.ieee.org/document/11249189)]
