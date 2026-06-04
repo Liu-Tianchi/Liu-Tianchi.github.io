@@ -88,8 +88,6 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - **<u>T. Liu</u>**, I. Kukanov, Z. Pan, Q. Wang, H. B. Sailor, K. A. Lee, *Towards Quantifying and Reducing Language Mismatch Effects in Cross-lingual Speech Anti-Spoofing*, **IEEE SLT**, 2024.🔗[[IEEE](https://ieeexplore.ieee.org/document/10832142), [arXiv](https://arxiv.org/abs/2409.08346)]
 - A. Guragain\*, **<u>T. Liu</u>**\*, Z. Pan, H. B. Sailor, Q. Wang, *Speech Foundation Model Ensembles for the Controlled Singing Voice Deepfake Detection (CtrSVDD) Challenge 2024*, **IEEE SLT**, (co-first author\*), 2024. 🔗[[IEEE](https://ieeexplore.ieee.org/document/10832226), [arXiv](https://arxiv.org/abs/2409.02302), [code](https://github.com/Anmol2059/SVDD2024)]
 - L. Zhang, ..., **<u>T. Liu</u>**, ..., *WeDefense: A Toolkit to Defend Against Fake Audio* 🔗[[arXiv]](https://arxiv.org/abs/2601.15240)
-- D. T. Truong, **<u>T. Liu</u>**, ..., *QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection* 🔗[[arXiv]](https://arxiv.org/abs/2509.20679)
-- L. Zhang, ..., **<u>T. Liu</u>**, ..., *WeDefense: A Toolkit to Defend Against Fake Audio* 🔗[[arXiv]](https://arxiv.org/abs/2601.15240)
 
 **TTS**
 - T. Wang, ..., **<u>T. Liu</u>**, ..., *Evaluating the Expressive Appropriateness of Speech in Rich Contexts*, **ACL**, oral, 2026. 🔗[[arXiv]](https://arxiv.org/abs/2605.09413)
