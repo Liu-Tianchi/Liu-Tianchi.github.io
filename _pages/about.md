@@ -171,11 +171,9 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 
 🏛️ **Academic Service**
 
-<!--- - [Committee](https://www.apsipa2025.org/wp/committee/), Local Arrangements Chair  @ IEEE APSIPA ASC, 2025 
+- Local Arrangements Chair  @ IEEE APSIPA ASC, 2025 
 - Scientific Committee for Frontiers in Deepfake Voice Detection and Beyond @ IEEE ASRU, 2025 
-- [Committee] Registration Chair, The International Conference on Asian Language Processing (IALP), 2025
---> 
-
+- Registration Chair, The International Conference on Asian Language Processing (IALP), 2025
 - Virtual Session Chair @ IEEE IALP, 2023
 - [Program Committee](https://www.asianlp.sg/conferences/iscslp2022/web/committees/) @ IEEE ISCSLP, 2022
 - Volunteer @ IEEE ICASSP, 2022
@@ -187,12 +185,12 @@ My research interests include text-to-speech, speaker recognition, anti-spoofing
 - IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP) *'25*
 - IEEE Transactions on Dependable and Secure Computing (TDSC) *'25*
 - IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM) *'25*
-- Computer Speech & Language *'24~'25*
-- IEEE Signal Processing Letters (SPL) - *'23~'25*
+- Computer Speech & Language *'24~'26*
+- IEEE Signal Processing Letters (SPL) - *'23~'26*
 
 *Conference:*
 - Annual Meeting of the Association for Computational Linguistics (ACL) - *'26*
-- Conference on Neural Information Processing Systems (NeurIPS) - *'25*
+- Conference on Neural Information Processing Systems (NeurIPS) - *'25~'26*
 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) - *'23~'26*
 - INTERSPEECH - *'23~'26*
 - International Joint Conference on Neural Networks (IJCNN) *'25*
