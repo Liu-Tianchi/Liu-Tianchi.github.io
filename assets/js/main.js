@@ -9,7 +9,7 @@
   const htmlEl = document.documentElement;
 
   let lang  = localStorage.getItem("lang")  || "en";
-  let theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  let theme = localStorage.getItem("theme") || "dark";
 
   /* bold markdown -> <b>, with self-name highlight + equal-contrib star */
   function fmt(str) {
