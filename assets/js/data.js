@@ -187,7 +187,7 @@ const CATEGORIES = [
 const PUBLICATIONS = [
   /* ---------- FEATURED / SELECTED ---------- */
   {
-    authors: "**Tianchi Liu**, Zeyang Song, Tianrui Wang, Zhipeng Li, Chenglin Xu, Yiwen Guo",
+    authors: "**Tianchi Liu**, Z. Song, T. Wang, Z. Li, C. Xu, Y. Guo",
     title: "EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis",
     venue: "EMNLP", year: 2026, cat: "tts",
     tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
@@ -200,7 +200,7 @@ const PUBLICATIONS = [
   {
     authors: "**Tianchi Liu**, D. T. Truong, R. K. Das, K. A. Lee, H. Li",
     title: "Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing",
-    venue: "TIFS", year: 2025, cat: "sec",
+    venue: "TIFS", year: 2025, cat: "sec", corr: true,
     tasks: ["AS"], method: { en: "Nested Architecture", zh: "嵌套网络架构" },
     featured: true, teaser: "assets/img/teasers/nes2net.png",
     stars: "Liu-Tianchi/Nes2Net", citations: 34,
@@ -411,7 +411,7 @@ const PUBLICATIONS = [
   {
     authors: "D. T. Truong, **Tianchi Liu**, et al.",
     title: "QAMO: Quality-aware Multi-centroid One-class Learning For Speech Deepfake Detection",
-    venue: "INTERSPEECH", year: 2026, cat: "sec",
+    venue: "INTERSPEECH", year: 2026, cat: "sec", corr: true,
     tasks: ["AS"], method: { en: "One-class Learning", zh: "单类学习" },
     links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.20679" }],
   },
@@ -474,7 +474,7 @@ const PUBLICATIONS = [
 
   /* ---------- TTS ---------- */
   {
-    authors: "Zeyang Song, **Tianchi Liu**, Tianrui Wang, Chenglin Xu, Yiwen Guo, Haizhou Li",
+    authors: "Z. Song, **Tianchi Liu**, T. Wang, C. Xu, Y. Guo, H. Li",
     title: "Diagnose, Then Refine: A Closed-Loop TTS System with AudioLLM-guided Correction",
     venue: "EMNLP", year: 2026, cat: "tts", corr: true,
     tasks: ["TTS"], method: { en: "Closed-Loop Correction", zh: "闭环纠错" },
