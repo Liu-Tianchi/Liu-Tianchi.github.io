@@ -44,36 +44,39 @@ const SITE = {
 /* ----------------------------------------------------------------------- */
 const BIO = {
   en: `I am a Senior Researcher at <b>Tencent Singapore</b>, selected for the <i>'Project Up' (青云计划)</i> talent programme, where I work on <b>Speech Synthesis &amp; Speech Generative AI</b>. I received my Ph.D. from the <b>National University of Singapore (NUS)</b>, advised by Prof. <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> and Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a>. Before Tencent, I was a Senior Research Engineer at <b>A*STAR</b>, Singapore, working on Speech-LLM (MERaLiON Team), speech anti-spoofing, and speaker recognition.`,
-  zh: `我是<b>腾讯（新加坡）</b>高级研究员，入选 <i>“青云计划”</i> 人才项目，研究方向为<b>语音合成与语音生成式 AI</b>。我于<b>新加坡国立大学（NUS）</b>获得博士学位，导师为 <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> 教授与 <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a> 教授。加入腾讯前，我在新加坡 <b>A*STAR</b> 担任高级研究工程师，从事语音大模型（MERaLiON 团队）、语音反欺骗与说话人识别研究。`,
+  zh: `我任职于<b>腾讯（新加坡）</b>高级研究员，入选 <i>“青云计划”</i> 人才项目，研究方向为<b>语音合成与语音生成式 AI</b>。我于<b>新加坡国立大学（NUS）</b>获得博士学位，导师为 <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> 教授与 <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a> 教授。加入腾讯前，我在新加坡 <b>A*STAR</b> 担任高级研究工程师，从事语音大模型（MERaLiON 团队）、语音反欺骗与说话人识别研究。`,
 };
 
 const STATS = {
   en: [
     { id: "citedby", num: "520", label: "Citations", sub: "Google Scholar" },
     { id: "hindex",  num: "13",  label: "h-index" },
-    { num: "NeurIPS · TIFS · TASLP", label: "Top Venues", small: true },
+    { num: '<span style="display:block">NeurIPS · TIFS · TASLP</span><span style="display:block;margin-top:8px">ACL · EMNLP · ICASSP</span>', label: "Top Venues", small: true },
     { num: "5+", label: "Awards" },
   ],
   zh: [
     { id: "citedby", num: "520", label: "总被引", sub: "Google Scholar" },
     { id: "hindex",  num: "13",  label: "h 指数" },
-    { num: "NeurIPS · TIFS · TASLP", label: "顶级会议 / 期刊", small: true },
+    { num: '<span style="display:block">NeurIPS · TIFS · TASLP</span><span style="display:block;margin-top:8px">ACL · EMNLP · ICASSP</span>', label: "顶级会议 / 期刊", small: true },
     { num: "5+", label: "获奖荣誉" },
   ],
 };
 
 /* ----------------------------------------------------------------------- */
 const NEWS = [
-  { date: "2025.12", type: "award",
+  { date: "2026", type: "paper",
+    en: 'Two papers, <b>EmoTra-TTS</b> and <b>LoopTTS</b>, accepted to <b>EMNLP 2026</b>.',
+    zh: '两篇论文 <b>EmoTra-TTS</b> 和 <b>LoopTTS</b> 被 <b>EMNLP 2026</b> 接收。' },
+  { date: "2025", type: "award",
     en: 'Co-authored paper received the <b>Best Paper Award</b> at <b>APSIPA ASC 2025</b>.',
     zh: '合作论文荣获 <b>APSIPA ASC 2025</b> <b>最佳论文奖</b>。' },
-  { date: "2025.10", type: "paper",
+  { date: "2025", type: "paper",
     en: '<b>Nes2Net</b> published in <b>IEEE TIFS</b> — a lightweight foundation-model anti-spoofing backbone.',
     zh: '<b>Nes2Net</b> 发表于 <b>IEEE TIFS</b>，一种轻量级语音反欺骗骨干网络。' },
-  { date: "2025.02", type: "career",
+  { date: "2025", type: "career",
     en: 'Joined <b>Tencent Singapore</b> as Senior Researcher under the "Project Up" programme.',
     zh: '以“青云计划”身份加入<b>腾讯（新加坡）</b>，任高级研究员。' },
-  { date: "2025.01", type: "career",
+  { date: "2025", type: "career",
     en: 'Successfully defended my Ph.D. thesis at <b>NUS</b> 🎓.',
     zh: '顺利通过<b>新加坡国立大学</b>博士论文答辩 🎓。' },
 ];
@@ -160,10 +163,10 @@ const TASKS = {
 /* TOPIC grouping — used for the publication-list headers AND the Topic filter.
    A paper belongs to a topic via its `cat` field. */
 const CATEGORIES = [
+  { key: "tts",  en: "Text-to-Speech", zh: "语音合成" },
   { key: "sllm", en: "Speech-LLM: Pretraining & Reasoning", zh: "语音大模型：预训练与推理" },
   { key: "sre",  en: "Speaker Recognition / Extraction", zh: "说话人识别 / 提取" },
   { key: "sec",  en: "Security (DeepFake / Deception Detection, Anti-Spoofing)", zh: "安全（深度伪造 / 欺骗检测、反欺骗）" },
-  { key: "tts",  en: "Text-to-Speech", zh: "语音合成" },
   { key: "asr",  en: "Speech Recognition", zh: "语音识别" },
 ];
 
@@ -183,6 +186,17 @@ const CATEGORIES = [
    ========================================================================= */
 const PUBLICATIONS = [
   /* ---------- FEATURED / SELECTED ---------- */
+  {
+    authors: "**Tianchi Liu**, Zeyang Song, Tianrui Wang, Zhipeng Li, Chenglin Xu, Yiwen Guo",
+    title: "EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis",
+    venue: "EMNLP", year: 2026, cat: "tts",
+    tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
+    featured: true, teaser: "assets/img/teasers/emotra.png", logo: "assets/img/logos/emotra.png",
+    links: [
+      { label: "Demo", url: "https://liu-tianchi.github.io/EmoTra_DemoPage/" },
+      { label: "Code", url: "https://github.com/Liu-Tianchi/EmoTra-TTS" },
+    ],
+  },
   {
     authors: "**Tianchi Liu**, D. T. Truong, R. K. Das, K. A. Lee, H. Li",
     title: "Nes2Net: A Lightweight Nested Architecture for Foundation Model Driven Speech Anti-spoofing",
@@ -243,8 +257,6 @@ const PUBLICATIONS = [
       { label: "Hugging Face", url: "https://huggingface.co/MERaLiON" },
     ],
   },
-  /* 6th slot reserved for a future highlight */
-  { placeholder: true, featured: true },
 
   /* ---------- Speech-LLM Pretraining & Reasoning ---------- */
   {
@@ -461,6 +473,13 @@ const PUBLICATIONS = [
   },
 
   /* ---------- TTS ---------- */
+  {
+    authors: "Zeyang Song, **Tianchi Liu**, Tianrui Wang, Chenglin Xu, Yiwen Guo, Haizhou Li",
+    title: "Diagnose, Then Refine: A Closed-Loop TTS System with AudioLLM-guided Correction",
+    venue: "EMNLP", year: 2026, cat: "tts", corr: true,
+    tasks: ["TTS"], method: { en: "Closed-Loop Correction", zh: "闭环纠错" },
+    links: [],
+  },
   {
     authors: "T. Wang, ..., **Tianchi Liu**, et al.",
     title: "Evaluating the Expressive Appropriateness of Speech in Rich Contexts",
