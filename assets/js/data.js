@@ -193,6 +193,7 @@ const PUBLICATIONS = [
     tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
     featured: true, teaser: "assets/img/teasers/emotra.png", logo: "assets/img/logos/emotra.png",
     links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2608.23791" },
       { label: "Demo", url: "https://liu-tianchi.github.io/EmoTra_DemoPage/" },
       { label: "Code", url: "https://github.com/Liu-Tianchi/EmoTra-TTS" },
     ],
