@@ -176,7 +176,7 @@
   }
   function matchFilter(p) {
     const r = roleOf(p);
-    const roleOk = activeRole === "all" || (activeRole === "first" && r.first) || (activeRole === "cofirst" && r.cofirst);
+    const roleOk = activeRole === "all" || (activeRole === "first" && r.first) || (activeRole === "cofirst" && r.cofirst) || (activeRole === "corr" && r.corr);
     const topicOk = activeTopic === "all" || p.cat === activeTopic;
     return roleOk && topicOk;
   }
@@ -195,7 +195,7 @@
     $("#pubList").innerHTML = html;
   }
   function renderFilters() {
-    const roleBtns = ["all", "first", "cofirst"]
+    const roleBtns = ["all", "first", "cofirst", "corr"]
       .map((r) => `<button class="filter-btn ${activeRole === r ? "active" : ""}" data-g="role" data-f="${r}">${I18N.role[r][lang]}</button>`).join("");
     const topicBtns = [`<button class="filter-btn ${activeTopic === "all" ? "active" : ""}" data-g="topic" data-f="all">${I18N.role.all[lang]}</button>`]
       .concat(CATEGORIES.map((c) => `<button class="filter-btn ${activeTopic === c.key ? "active" : ""}" data-g="topic" data-f="${c.key}">${c[lang]}</button>`)).join("");

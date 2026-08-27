@@ -189,7 +189,7 @@ const PUBLICATIONS = [
   {
     authors: "**Tianchi Liu**, Z. Song, T. Wang, Z. Li, C. Xu, Y. Guo",
     title: "EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis",
-    venue: "EMNLP", year: 2026, cat: "tts",
+    venue: "EMNLP", year: 2026, cat: "tts", corr: true,
     tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
     featured: true, teaser: "assets/img/teasers/emotra.png", logo: "assets/img/logos/emotra.png",
     links: [
@@ -648,6 +648,7 @@ const I18N = {
     all:    { en: "All",              zh: "全部" },
     first:  { en: "First Author",     zh: "第一作者" },
     cofirst:{ en: "Co-first Author",  zh: "共同一作" },
+    corr:   { en: "Corresponding Author", zh: "通讯作者" },
     none:   { en: "No matching papers.", zh: "暂无匹配的论文。" },
   },
 };
