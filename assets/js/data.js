@@ -479,7 +479,11 @@ const PUBLICATIONS = [
     title: "Diagnose, Then Refine: A Closed-Loop TTS System with AudioLLM-guided Correction",
     venue: "EMNLP", year: 2026, cat: "tts", corr: true,
     tasks: ["TTS"], method: { en: "Closed-Loop Correction", zh: "闭环纠错" },
-    links: [],
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2608.28970" },
+      { label: "Demo", url: "https://pooookeman.github.io/LoopTTS/" },
+      { label: "Code", url: "https://github.com/Pooookeman/LoopTTS" },
+    ],
   },
   {
     authors: "T. Wang, ..., **Tianchi Liu**, et al.",
