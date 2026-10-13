@@ -4,6 +4,9 @@ import json
 from datetime import datetime
 import os
 
+scholarly.set_timeout(15)
+scholarly.set_retries(3)
+
 author: dict = scholarly.search_author_id('1W24GsQAAAAJ')
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 name = author['name']
