@@ -304,9 +304,10 @@
   }
   async function loadScholar() {
     const gs = SITE.scholar; if (!gs) return;
+    /* jsDelivr caches branch URLs for 12h+ and can lag for days; raw GitHub caches ~5 min */
     const urls = [
-      `https://cdn.jsdelivr.net/gh/${gs.repo}@${gs.branch}/gs_data.json`,
       `https://raw.githubusercontent.com/${gs.repo}/${gs.branch}/gs_data.json`,
+      `https://cdn.jsdelivr.net/gh/${gs.repo}@${gs.branch}/gs_data.json`,
     ];
     for (const url of urls) {
       try {
