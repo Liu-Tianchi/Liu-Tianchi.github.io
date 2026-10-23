@@ -62,9 +62,11 @@
     return `<span class="venue-wrap">${venueBadge(key)}${rankLine(key)}</span>`;
   }
   const taskTags = (keys) => (keys || []).map((k) => `<span class="tag task">${t(TASKS[k])}</span>`).join("");
+  const oralTag = (p) => p.oral
+    ? `<span class="tag oral">${["ACL", "EMNLP"].includes(p.venue) ? "🏆 " : ""}${I18N.misc.oral[lang]}</span>`
+    : "";
   function metaTags(p) {
-    let h = "";
-    if (p.oral)   h += `<span class="tag oral">${I18N.misc.oral[lang]}</span>`;
+    let h = oralTag(p);
     if (p.award)  h += `<span class="tag award">🏆 ${p.award}</span>`;
     if (p.team)   h += `<span class="tag team">${p.team}</span>`;
     if (p.note)   h += `<span class="tag note">${t(p.note)}</span>`;
@@ -146,7 +148,7 @@
         <div class="feat-body">
           <div class="feat-meta-top">
             ${venueBlock(p.venue)}<span class="year-chip">${p.year}</span>
-            ${p.oral ? `<span class="tag oral">${I18N.misc.oral[lang]}</span>` : ""}
+            ${oralTag(p)}
             ${cite}
           </div>
           <h3 class="feat-title">${p.title}</h3>

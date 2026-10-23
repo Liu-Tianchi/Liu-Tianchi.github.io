@@ -157,6 +157,7 @@ const TASKS = {
   SLLM: { en: "Speech-LLM",                zh: "语音大模型" },
   TTS:  { en: "Text-to-Speech",            zh: "语音合成" },
   ASR:  { en: "Speech Recognition",        zh: "语音识别" },
+  VLM:  { en: "Vision-Language Model",     zh: "视觉语言模型" },
   DATA: { en: "Dataset / Benchmark",       zh: "数据集 / 基准" },
 };
 
@@ -164,10 +165,11 @@ const TASKS = {
    A paper belongs to a topic via its `cat` field. */
 const CATEGORIES = [
   { key: "tts",  en: "Text-to-Speech", zh: "语音合成" },
+  { key: "asr",  en: "Speech Recognition", zh: "语音识别" },
+  { key: "vlm",  en: "Vision-Language Model (VLM)", zh: "视觉语言模型（VLM）" },
   { key: "sllm", en: "Speech-LLM: Pretraining & Reasoning", zh: "语音大模型：预训练与推理" },
   { key: "sre",  en: "Speaker Recognition / Extraction", zh: "说话人识别 / 提取" },
   { key: "sec",  en: "Security (DeepFake / Deception Detection, Anti-Spoofing)", zh: "安全（深度伪造 / 欺骗检测、反欺骗）" },
-  { key: "asr",  en: "Speech Recognition", zh: "语音识别" },
 ];
 
 /* =========================================================================
@@ -189,7 +191,7 @@ const PUBLICATIONS = [
   {
     authors: "**Tianchi Liu**, Z. Song, T. Wang, Z. Li, C. Xu, Y. Guo",
     title: "EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis",
-    venue: "EMNLP", year: 2026, cat: "tts", corr: true,
+    venue: "EMNLP", year: 2026, oral: true, cat: "tts", corr: true,
     tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
     featured: true, teaser: "assets/img/teasers/emotra.png", logo: "assets/img/logos/emotra.png",
     stars: "Liu-Tianchi/EmoTra-TTS",
@@ -249,7 +251,7 @@ const PUBLICATIONS = [
     ],
   },
   {
-    authors: "M. Huzaifah*, G. Lin*, **Tianchi Liu***, H. B. Sailor*, K. M. Tan*, T. K. Vangani*, Q. Wang*, J. H. M. Wong*, N. F. Chen, A. T. Aw",
+    authors: "M. Huzaifah*, G. Lin*, **Tianchi Liu***, ..., N. F. Chen, A. T. Aw",
     title: "MERaLiON-SpeechEncoder: Towards a Speech Foundation Model for Singapore and Beyond",
     venue: "PREPRINT", year: 2024, cat: "sllm",
     tasks: ["SLLM"], team: "MERaLiON", method: { en: "Foundation Model Pretraining", zh: "基础模型预训练" },
@@ -265,7 +267,7 @@ const PUBLICATIONS = [
     authors: "Q. Wang, H. B. Sailor, **Tianchi Liu**, et al.",
     title: "Benchmarking Contextual and Paralinguistic Reasoning in Speech-LLMs: A Case Study with In-the-Wild Data",
     venue: "EMNLP", year: 2025, cat: "sllm", note: { en: "Findings", zh: "Findings" },
-    tasks: ["SLLM", "DATA"],
+    tasks: ["SLLM"],
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2509.16589" },
       { label: "ACL Anthology", url: "https://aclanthology.org/2025.findings-emnlp.760/" },
@@ -282,7 +284,7 @@ const PUBLICATIONS = [
     authors: "Q. Wang, H. B. Sailor, **Tianchi Liu**, A. T. Aw",
     title: "Contextual Paralinguistic Data Creation for Multi-Modal Speech-LLM: Data Condensation and Spoken QA Generation",
     venue: "INTERSPEECH", year: 2025, cat: "sllm",
-    tasks: ["SLLM", "DATA"], method: { en: "Data Condensation", zh: "数据浓缩" },
+    tasks: ["SLLM"], method: { en: "Data Condensation", zh: "数据浓缩" },
     links: [
       { label: "ISCA", url: "https://www.isca-archive.org/interspeech_2025/wang25e_interspeech.html" },
       { label: "arXiv", url: "https://arxiv.org/abs/2505.13338" },
@@ -293,7 +295,7 @@ const PUBLICATIONS = [
     authors: "L. Xue, ..., **Tianchi Liu**, et al.",
     title: "Audio-FLAN: A Preliminary Release",
     venue: "PREPRINT", year: 2025, cat: "sllm", note: { en: "Under Review", zh: "审稿中" },
-    tasks: ["SLLM", "DATA"],
+    tasks: ["SLLM"],
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2502.16584" },
       { label: "Dataset", url: "https://huggingface.co/datasets/HKUSTAudio/Audio-FLAN-Dataset" },
@@ -490,17 +492,41 @@ const PUBLICATIONS = [
     authors: "T. Wang, ..., **Tianchi Liu**, et al.",
     title: "Evaluating the Expressive Appropriateness of Speech in Rich Contexts",
     venue: "ACL", year: 2026, oral: true, cat: "tts",
-    tasks: ["TTS", "DATA"],
+    tasks: ["TTS"],
     links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.09413" }],
   },
 
   /* ---------- ASR ---------- */
+  {
+    authors: "**Tianchi Liu**, N. Moratelli, ..., A. Nazir",
+    title: "CAFE: Confining Feature Distillation to Language-Routed Adapters for Compact Multilingual Automatic Speech Recognition",
+    venue: "PREPRINT", year: 2026, cat: "asr",
+    tasks: ["ASR"], method: { en: "Feature Distillation · Adapters", zh: "特征蒸馏 · 适配器" },
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2610.19134" },
+      { label: "Hugging Face", url: "https://huggingface.co/collections/qvac/transcribepsy" },
+      { label: "Code", url: "https://github.com/tether-ai-research/qvac-transcribePsy" },
+    ],
+  },
   {
     authors: "S. Dahal, A. Guragain*, **Tianchi Liu**, et al.",
     title: "Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition",
     venue: "INTERSPEECH", year: 2026, cat: "asr",
     tasks: ["ASR"], method: { en: "Mixture-of-Experts · LoRA", zh: "专家混合 · LoRA" },
     links: [],
+  },
+
+  /* ---------- VLM ---------- */
+  {
+    authors: "K. A. Hashmi, M. Zolfaghari, ..., **Tianchi Liu**, A. Nazir",
+    title: "VisionPsy-Nano: Improving Accuracy, Efficiency, and Reliability in On-Device Vision-Language Models",
+    venue: "PREPRINT", year: 2026, cat: "vlm",
+    tasks: ["VLM"], method: { en: "Diagnosis-Driven Post-Training", zh: "诊断驱动后训练" },
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2609.31746" },
+      { label: "Hugging Face", url: "https://huggingface.co/collections/qvac/visionpsy" },
+      { label: "Code", url: "https://github.com/tether-ai-research/qvac-visionpsy-nano" },
+    ],
   },
 
   /* ---------- Audio-Visual ---------- */
