@@ -39,6 +39,12 @@ const SITE = {
     fallbackCitedby: 520,
     fallbackHindex: 13,
   },
+  /* Hugging Face collections referenced by `hf` fields below. All-time downloads
+     summed over the collection's models are fetched at runtime; these are fallbacks. */
+  hf: {
+    "qvac/visionpsy":     34257,
+    "qvac/transcribepsy": 1063,
+  },
 };
 
 /* ----------------------------------------------------------------------- */
@@ -500,7 +506,7 @@ const PUBLICATIONS = [
   {
     authors: "**Tianchi Liu**, N. Moratelli, ..., A. Nazir",
     title: "CAFE: Confining Feature Distillation to Language-Routed Adapters for Compact Multilingual Automatic Speech Recognition",
-    venue: "PREPRINT", year: 2026, cat: "asr",
+    venue: "PREPRINT", year: 2026, cat: "asr", hf: "qvac/transcribepsy",
     tasks: ["ASR"], method: { en: "Feature Distillation · Adapters", zh: "特征蒸馏 · 适配器" },
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2610.19134" },
@@ -520,7 +526,7 @@ const PUBLICATIONS = [
   {
     authors: "K. A. Hashmi, M. Zolfaghari, ..., **Tianchi Liu**, A. Nazir",
     title: "VisionPsy-Nano: Improving Accuracy, Efficiency, and Reliability in On-Device Vision-Language Models",
-    venue: "PREPRINT", year: 2026, cat: "vlm",
+    venue: "PREPRINT", year: 2026, cat: "vlm", hf: "qvac/visionpsy",
     tasks: ["VLM"], method: { en: "Diagnosis-Driven Post-Training", zh: "诊断驱动后训练" },
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2609.31746" },
@@ -551,6 +557,10 @@ const OPENSOURCE = [
     en: "Lightweight anti-spoofing backbone (TIFS'25).", zh: "轻量级反欺骗骨干网络（TIFS'25）。" },
   { name: "EmoTra-TTS", repo: "Liu-Tianchi/EmoTra-TTS",
     en: "Smooth intra-utterance emotion transitions for TTS (EMNLP'26).", zh: "语音合成的句内平滑情感过渡（EMNLP'26）。" },
+  { name: "VisionPsy", repo: "tether-ai-research/qvac-visionpsy-nano", hf: "qvac/visionpsy", stars: false,
+    en: "Sub-billion vision-language models for on-device use.", zh: "面向端侧部署的亚十亿参数视觉语言模型。" },
+  { name: "TranscribePsy", repo: "tether-ai-research/qvac-transcribePsy", hf: "qvac/transcribepsy", stars: false,
+    en: "Compact multilingual speech recognition for on-device use.", zh: "面向端侧部署的轻量多语种语音识别。" },
 ];
 
 /* ----------------------------------------------------------------------- */
@@ -581,20 +591,20 @@ const AWARDS = {
 const SERVICE = {
   roles: {
     en: [
+      "Registration Chair @ Int'l Conf. on Asian Language Processing (IALP), 2026",
       "Local Arrangements Chair @ IEEE APSIPA ASC, 2025",
       "Scientific Committee, Frontiers in Deepfake Voice Detection and Beyond @ IEEE ASRU, 2025",
       "Registration Chair @ Int'l Conf. on Asian Language Processing (IALP), 2025",
       "Virtual Session Chair @ IEEE IALP, 2023",
       'Program Committee @ IEEE ISCSLP, 2022 <a href="https://www.asianlp.sg/conferences/iscslp2022/web/committees/" target="_blank" rel="noopener">↗</a>',
-      "Volunteer @ IEEE ICASSP, 2022",
     ],
     zh: [
+      "Registration Chair @ Int'l Conf. on Asian Language Processing (IALP), 2026",
       "Local Arrangements Chair @ IEEE APSIPA ASC, 2025",
       "Scientific Committee, Frontiers in Deepfake Voice Detection and Beyond @ IEEE ASRU, 2025",
       "Registration Chair @ Int'l Conf. on Asian Language Processing (IALP), 2025",
       "Virtual Session Chair @ IEEE IALP, 2023",
       'Program Committee @ IEEE ISCSLP, 2022 <a href="https://www.asianlp.sg/conferences/iscslp2022/web/committees/" target="_blank" rel="noopener">↗</a>',
-      "Volunteer @ IEEE ICASSP, 2022",
     ],
   },
   reviewerJournal: [
@@ -605,10 +615,13 @@ const SERVICE = {
     { n: "Computer Speech & Language", y: "'24–'26" },
     { n: "IEEE SPL", y: "'23–'26" },
   ],
+  areaChair: [
+    { n: "ACL Rolling Review (ARR)", y: "'26" },
+  ],
   reviewerConf: [
-    { n: "ACL", y: "'26" },
+    { n: "ARR (ACL · EMNLP · NAACL · EACL)", y: "'26" },
     { n: "NeurIPS", y: "'25–'26" },
-    { n: "ICASSP", y: "'23–'26" },
+    { n: "ICASSP", y: "'23–'27" },
     { n: "INTERSPEECH", y: "'23–'26" },
     { n: "IJCNN", y: "'25" },
     { n: "IEEE ASRU", y: "'25" },
@@ -665,11 +678,13 @@ const I18N = {
   misc: {
     email:        { en: "Email",            zh: "邮箱" },
     scholar:      { en: "Google Scholar",   zh: "谷歌学术" },
+    areaChair:    { en: "Area Chair (AC)",  zh: "领域主席 (Area Chair)" },
     reviewer:     { en: "Reviewer",         zh: "审稿人 (Reviewer)" },
     reviewerJ:    { en: "Journals",         zh: "期刊 / 汇刊" },
     reviewerC:    { en: "Conferences",      zh: "会议" },
     oral:         { en: "Oral",             zh: "Oral" },
     cited:        { en: "Citations",        zh: "被引" },
+    downloads:    { en: "downloads",        zh: "次下载" },
     reserved:     { en: "More to come",     zh: "敬请期待" },
     reservedSub:  { en: "A future highlight will live here.", zh: "此处预留给下一项代表作。" },
   },

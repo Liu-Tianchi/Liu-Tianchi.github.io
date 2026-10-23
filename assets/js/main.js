@@ -77,6 +77,7 @@
   function links(p) {
     let h = (p.links || []).map((l) => `<a class="link-pill" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join("");
     if (p.stars) h += `<a class="link-pill stars-pill" href="https://github.com/${p.stars}" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/${p.stars}?style=social" alt="stars"></a>`;
+    if (p.hf) h += `<a class="link-pill hf-pill" href="https://huggingface.co/collections/${p.hf}" target="_blank" rel="noopener">${hfText(p.hf)}</a>`;
     return h;
   }
 
@@ -172,7 +173,7 @@
           <div class="pub-title">${p.title}</div>
           <div class="pub-authors">${fmt(p.authors)}</div>
           <div class="pub-meta">${metaTags(p)}</div>
-          ${(p.links && p.links.length) || p.stars ? `<div class="feat-links" style="margin-top:11px">${links(p)}</div>` : ""}
+          ${(p.links && p.links.length) || p.stars || p.hf ? `<div class="feat-links" style="margin-top:11px">${links(p)}</div>` : ""}
         </div>
       </div>`;
   }
@@ -221,11 +222,12 @@
     g.innerHTML = OPENSOURCE.map((o) => `
       <a class="os-card" href="https://github.com/${o.repo}" target="_blank" rel="noopener">
         <div><div class="os-name">${o.name}</div><div class="os-desc">${o[lang]}</div></div>
-        <div class="os-star"><img src="https://img.shields.io/github/stars/${o.repo}?style=social" alt="stars"></div>
+        <div class="os-star">${o.stars === false ? "" : `<img src="https://img.shields.io/github/stars/${o.repo}?style=social" alt="stars">`}${o.hf ? `<span class="hf-count">${hfText(o.hf)}</span>` : ""}</div>
       </a>`).join("");
     $("#awardList").innerHTML = AWARDS[lang].map((a) => `<li><span class="a-ico">${a.icon}</span><span>${a.text}</span></li>`).join("");
     $("#serviceRoles").innerHTML = SERVICE.roles[lang].map((r) => `<li>${r}</li>`).join("");
     const chip = (x) => `<span class="tag">${x.n}<span class="ry">${x.y}</span></span>`;
+    $("#areaChair").innerHTML = SERVICE.areaChair.map(chip).join("");
     $("#reviewerJ").innerHTML = SERVICE.reviewerJournal.map(chip).join("");
     $("#reviewerC").innerHTML = SERVICE.reviewerConf.map(chip).join("");
   }
@@ -321,11 +323,39 @@
     }
   }
 
+  /* ---------------- HUGGING FACE DOWNLOADS ---------------- */
+  const hfCounts = { ...(SITE.hf || {}) };
+  const fmtCount = (n) => n == null ? "–"
+    : n >= 10000 ? Math.round(n / 1000) + "k"
+    : n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k"
+    : String(n);
+  const hfText = (slug) => `🤗 <b data-hf="${slug}">${fmtCount(hfCounts[slug])}</b> ${I18N.misc.downloads[lang]}`;
+  async function hfAllTimeDownloads(slug) {
+    const r = await fetch(`https://huggingface.co/api/collections/${slug}`);
+    if (!r.ok) throw new Error(r.status);
+    const models = ((await r.json()).items || []).filter((it) => it.type === "model");
+    const counts = await Promise.all(models.map(async (m) => {
+      const res = await fetch(`https://huggingface.co/api/models/${m.id}?expand%5B%5D=downloadsAllTime`);
+      if (!res.ok) throw new Error(res.status);
+      return (await res.json()).downloadsAllTime || 0;
+    }));
+    return counts.reduce((a, b) => a + b, 0);
+  }
+  function loadHF() {
+    Object.keys(hfCounts).forEach(async (slug) => {
+      try {
+        hfCounts[slug] = await hfAllTimeDownloads(slug);
+        $$(`[data-hf="${slug}"]`).forEach((el) => (el.textContent = fmtCount(hfCounts[slug])));
+      } catch (e) { /* keep fallback */ }
+    });
+  }
+
   /* ---------------- INIT ---------------- */
   applyTheme(); applyLangClass();
   renderAll();
   setupNav();
   loadScholar();
+  loadHF();
   $("#langToggle").addEventListener("click", toggleLang);
   $("#themeToggle").addEventListener("click", toggleTheme);
 })();

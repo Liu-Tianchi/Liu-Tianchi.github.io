@@ -319,6 +319,7 @@ sup.eq { color: var(--accent); font-weight: 600; font-size: .7em; }
 .link-pill:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-t); }
 .stars-pill { display:inline-flex; align-items:center; }
 .stars-pill img { height: 19px; }
+.hf-pill b, .hf-count b { font-weight: 700; }
 
 /* ========================= ALL PUBLICATIONS ========================= */
 .pub-filters { display: flex; flex-direction: column; gap: 12px; margin-bottom: 34px; }
@@ -368,6 +369,8 @@ html[data-theme="dark"] .filter-btn.active { color: #0e1014; }
 .os-card .os-name { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); }
 .os-card .os-desc { font-size: .85rem; color: var(--muted); margin-top: 3px; }
 .os-card .os-star img { height: 20px; }
+.os-card .os-star { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+.os-card .hf-count { font-size: .76rem; color: var(--ink-soft); white-space: nowrap; }
 
 /* ========================= AWARDS / SERVICE ========================= */
 .award-list { list-style: none; display: flex; flex-direction: column; gap: 13px; }
@@ -377,6 +380,7 @@ html[data-theme="dark"] .filter-btn.active { color: #0e1014; }
 .service-roles li { font-size: .92rem; color: var(--ink-soft); padding-left: 16px; position: relative; }
 .service-roles li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
 .reviewer-block { padding-top: 18px; border-top: 1px solid var(--line); }
+.reviewer-block + .reviewer-block { margin-top: 22px; }
 .reviewer-title { font-family: var(--serif); font-weight: 500; font-size: 1.05rem; color: var(--ink); margin-bottom: 4px; }
 .reviewer-label { display: block; font-size: .76rem; text-transform: uppercase; letter-spacing: .5px; color: var(--faint); margin: 12px 0 8px; font-weight: 600; }
 .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
