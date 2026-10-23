@@ -519,7 +519,7 @@ const PUBLICATIONS = [
     title: "Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition",
     venue: "INTERSPEECH", year: 2026, cat: "asr",
     tasks: ["ASR"], method: { en: "Mixture-of-Experts · LoRA", zh: "专家混合 · LoRA" },
-    links: [],
+    links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2610.26888" }],
   },
 
   /* ---------- VLM ---------- */
