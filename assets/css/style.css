@@ -222,6 +222,7 @@ html[data-theme="dark"] .ico-moon { display: block; }
 .news-tag.paper  { background: var(--accent-t); color: var(--accent); }
 .news-tag.award  { background: var(--gold-t); color: var(--gold); }
 .news-tag.career { background: rgba(110,110,120,.12); color: var(--muted); }
+.news-tag.release { background: rgba(58,150,105,.13); color: #3a9669; }
 
 /* ---------- RESEARCH ---------- */
 .research-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-bottom: 60px; }

@@ -10,13 +10,13 @@ const SITE = {
   footerName: { en: "Tianchi Liu",     zh: "Tianchi Liu · 柳天驰" },
   roles: {
     en: [
-      "Senior Researcher @ Tencent, Singapore",
       "Ph.D. @ National University of Singapore",
+      "Ex-Tencent, Singapore · Project Up Talent Programme",
       "Ex-A*STAR, Singapore",
     ],
     zh: [
-      "腾讯（新加坡）高级研究员",
       "新加坡国立大学 博士",
+      "前腾讯（新加坡）高级研究员 · 青云计划",
       "前新加坡 A*STAR 研究员",
     ],
   },
@@ -49,8 +49,8 @@ const SITE = {
 
 /* ----------------------------------------------------------------------- */
 const BIO = {
-  en: `I am a Senior Researcher at <b>Tencent Singapore</b>, selected for the <i>'Project Up' (青云计划)</i> talent programme, where I work on <b>Speech Synthesis &amp; Speech Generative AI</b>. I received my Ph.D. from the <b>National University of Singapore (NUS)</b>, advised by Prof. <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> and Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a>. Before Tencent, I was a Senior Research Engineer at <b>A*STAR</b>, Singapore, working on Speech-LLM (MERaLiON Team), speech anti-spoofing, and speaker recognition.`,
-  zh: `我任职于<b>腾讯（新加坡）</b>高级研究员，入选 <i>“青云计划”</i> 人才项目，研究方向为<b>语音合成与语音生成式 AI</b>。我于<b>新加坡国立大学（NUS）</b>获得博士学位，导师为 <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> 教授与 <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a> 教授。加入腾讯前，我在新加坡 <b>A*STAR</b> 担任高级研究工程师，从事语音大模型（MERaLiON 团队）、语音反欺骗与说话人识别研究。`,
+  en: `I was a Senior Researcher at <b>Tencent Singapore</b>, selected for the <i>'Project Up' (青云计划)</i> talent programme, where I worked on <b>Speech Synthesis &amp; Speech Generative AI</b>. I received my Ph.D. from the <b>National University of Singapore (NUS)</b>, advised by Prof. <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> and Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a>. Before Tencent, I was a Senior Research Engineer at <b>A*STAR</b>, Singapore, working on Speech-LLM (MERaLiON Team), speech anti-spoofing, and speaker recognition.`,
+  zh: `我曾任<b>腾讯（新加坡）</b>高级研究员，入选 <i>“青云计划”</i> 人才项目，从事<b>语音合成与语音生成式 AI</b> 研究。我于<b>新加坡国立大学（NUS）</b>获得博士学位，导师为 <a href="https://scholar.google.com/citations?user=z8_x7C8AAAAJ&hl=en" target="_blank" rel="noopener">Li Haizhou</a> 教授与 <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en" target="_blank" rel="noopener">Mike Z. Shou</a> 教授。加入腾讯前，我在新加坡 <b>A*STAR</b> 担任高级研究工程师，从事语音大模型（MERaLiON 团队）、语音反欺骗与说话人识别研究。`,
 };
 
 const STATS = {
@@ -70,6 +70,15 @@ const STATS = {
 
 /* ----------------------------------------------------------------------- */
 const NEWS = [
+  { date: "2026", type: "award",
+    en: '<b>EmoTra-TTS</b> selected for <b>oral presentation</b> 🏆 at <b>EMNLP 2026</b>.',
+    zh: '<b>EmoTra-TTS</b> 入选 <b>EMNLP 2026</b> <b>口头报告（Oral）</b>🏆。' },
+  { date: "2026", type: "release",
+    en: 'Released <b>TranscribePsy</b>, on-device ASR models running at <b>360×+ real-time speed on iPhone</b> with no cloud connection (<a href="https://huggingface.co/collections/qvac/transcribepsy" target="_blank" rel="noopener">🤗 Hugging Face</a>).',
+    zh: '发布端侧语音识别模型 <b>TranscribePsy</b>，在 iPhone 上实现 <b>360 倍以上实时速度</b>，完全离线、无需云端连接（<a href="https://huggingface.co/collections/qvac/transcribepsy" target="_blank" rel="noopener">🤗 Hugging Face</a>）。' },
+  { date: "2026", type: "release",
+    en: 'Released <b>VisionPsy-Nano</b>, sub-billion on-device vision-language models (<a href="https://huggingface.co/collections/qvac/visionpsy" target="_blank" rel="noopener">🤗 Hugging Face</a>).',
+    zh: '发布端侧视觉语言模型 <b>VisionPsy-Nano</b>（<a href="https://huggingface.co/collections/qvac/visionpsy" target="_blank" rel="noopener">🤗 Hugging Face</a>）。' },
   { date: "2026", type: "paper",
     en: 'Two papers, <b>EmoTra-TTS</b> and <b>LoopTTS</b>, accepted to <b>EMNLP 2026</b>.',
     zh: '两篇论文 <b>EmoTra-TTS</b> 和 <b>LoopTTS</b> 被 <b>EMNLP 2026</b> 接收。' },
