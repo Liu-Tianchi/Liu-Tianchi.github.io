@@ -109,7 +109,7 @@
     $("#newsList").innerHTML = NEWS.map((n) => `
       <div class="news-item">
         <div class="news-date">${n.date}</div>
-        <div class="news-body"><span class="news-tag ${n.type}">${n.type}</span>${n[lang]}</div>
+        <div class="news-body"><span class="news-tag ${n.type}">${n.type}</span>${n[lang]}${n.hf ? `<a class="news-hf" href="https://huggingface.co/collections/${n.hf}" target="_blank" rel="noopener">${hfText(n.hf)}</a>` : ""}</div>
       </div>`).join("");
   }
 

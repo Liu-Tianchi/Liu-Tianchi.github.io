@@ -223,6 +223,8 @@ html[data-theme="dark"] .ico-moon { display: block; }
 .news-tag.award  { background: var(--gold-t); color: var(--gold); }
 .news-tag.career { background: rgba(110,110,120,.12); color: var(--muted); }
 .news-tag.release { background: rgba(58,150,105,.13); color: #3a9669; }
+.news-hf { margin-left: 8px; font-size: .85rem; color: var(--ink-soft); white-space: nowrap; }
+.news-hf:hover { color: var(--accent); }
 
 /* ---------- RESEARCH ---------- */
 .research-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-bottom: 60px; }
@@ -320,7 +322,7 @@ sup.eq { color: var(--accent); font-weight: 600; font-size: .7em; }
 .link-pill:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-t); }
 .stars-pill { display:inline-flex; align-items:center; }
 .stars-pill img { height: 19px; }
-.hf-pill b, .hf-count b { font-weight: 700; }
+.hf-pill b, .hf-count b, .news-hf b { font-weight: 700; }
 
 /* ========================= ALL PUBLICATIONS ========================= */
 .pub-filters { display: flex; flex-direction: column; gap: 12px; margin-bottom: 34px; }

@@ -70,15 +70,15 @@ const STATS = {
 
 /* ----------------------------------------------------------------------- */
 const NEWS = [
-  { date: "2026", type: "award",
+  { date: "2026", type: "paper",
     en: '<b>EmoTra-TTS</b> selected for <b>oral presentation</b> 🏆 at <b>EMNLP 2026</b>.',
     zh: '<b>EmoTra-TTS</b> 入选 <b>EMNLP 2026</b> <b>口头报告（Oral）</b>🏆。' },
-  { date: "2026", type: "release",
-    en: 'Released <b>TranscribePsy</b>, on-device ASR models running at <b>360×+ real-time speed on iPhone</b> with no cloud connection (<a href="https://huggingface.co/collections/qvac/transcribepsy" target="_blank" rel="noopener">🤗 Hugging Face</a>).',
-    zh: '发布端侧语音识别模型 <b>TranscribePsy</b>，在 iPhone 上实现 <b>360 倍以上实时速度</b>，完全离线、无需云端连接（<a href="https://huggingface.co/collections/qvac/transcribepsy" target="_blank" rel="noopener">🤗 Hugging Face</a>）。' },
-  { date: "2026", type: "release",
-    en: 'Released <b>VisionPsy-Nano</b>, sub-billion on-device vision-language models (<a href="https://huggingface.co/collections/qvac/visionpsy" target="_blank" rel="noopener">🤗 Hugging Face</a>).',
-    zh: '发布端侧视觉语言模型 <b>VisionPsy-Nano</b>（<a href="https://huggingface.co/collections/qvac/visionpsy" target="_blank" rel="noopener">🤗 Hugging Face</a>）。' },
+  { date: "2026", type: "release", hf: "qvac/transcribepsy",
+    en: 'Released <b>TranscribePsy</b>, on-device ASR models running at <b>360×+ real-time speed on iPhone</b> with no cloud connection.',
+    zh: '发布端侧语音识别模型 <b>TranscribePsy</b>，在 iPhone 上实现 <b>360 倍以上实时速度</b>，完全离线、无需云端连接。' },
+  { date: "2026", type: "release", hf: "qvac/visionpsy",
+    en: 'Released <b>VisionPsy-Nano</b>, sub-billion on-device vision-language models.',
+    zh: '发布端侧视觉语言模型 <b>VisionPsy-Nano</b>。' },
   { date: "2026", type: "paper",
     en: 'Two papers, <b>EmoTra-TTS</b> and <b>LoopTTS</b>, accepted to <b>EMNLP 2026</b>.',
     zh: '两篇论文 <b>EmoTra-TTS</b> 和 <b>LoopTTS</b> 被 <b>EMNLP 2026</b> 接收。' },
