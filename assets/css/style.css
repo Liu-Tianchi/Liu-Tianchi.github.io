@@ -223,6 +223,7 @@ html[data-theme="dark"] .ico-moon { display: block; }
 .news-tag.award  { background: var(--gold-t); color: var(--gold); }
 .news-tag.career { background: rgba(110,110,120,.12); color: var(--muted); }
 .news-tag.release { background: rgba(58,150,105,.13); color: #3a9669; }
+.news-tag.service { background: rgba(124,92,180,.13); color: #8a6cc4; }
 .news-hf { margin-left: 8px; font-size: .85rem; color: var(--ink-soft); white-space: nowrap; }
 .news-hf:hover { color: var(--accent); }
 

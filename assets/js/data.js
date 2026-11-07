@@ -70,6 +70,9 @@ const STATS = {
 
 /* ----------------------------------------------------------------------- */
 const NEWS = [
+  { date: "2026", type: "service",
+    en: 'Honored to serve as an <b>Area Chair</b> for <b>ACL Rolling Review (ARR)</b>.',
+    zh: '很荣幸担任 <b>ACL Rolling Review (ARR)</b> <b>领域主席（Area Chair）</b>。' },
   { date: "2026", type: "release", hf: "qvac/transcribepsy",
     en: 'Released <b>TranscribePsy</b>, on-device ASR models running at <b>360×+ real-time speed on iPhone</b> with no cloud connection.',
     zh: '发布端侧语音识别模型 <b>TranscribePsy</b>，在 iPhone 上实现 <b>360 倍以上实时速度</b>，完全离线、无需云端连接。' },
