@@ -215,6 +215,9 @@ html[data-theme="dark"] .ico-moon { display: block; }
 .news-item:first-child { border-top: none; }
 .news-date { font-family: var(--mono); font-size: .82rem; color: var(--accent); padding-top: 2px; }
 .news-body { color: var(--ink-soft); font-size: .98rem; }
+.news-body a:not(.news-hf) { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent); text-underline-offset: 3px; }
+.news-body a:not(.news-hf)::after { content: "↗"; display: inline-block; margin-left: 2px; font-size: .8em; }
+.news-body a b { color: inherit; }
 .news-tag {
   display: inline-block; font-size: .68rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: .5px; padding: 2px 8px; border-radius: 6px; margin-right: 8px; vertical-align: 1px;
